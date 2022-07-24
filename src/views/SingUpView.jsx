@@ -144,7 +144,7 @@ export default function SignupView() {
               justify={'center'}
             >
               <Button type="button" onClick={goBack}>
-                goBack
+                GoBack
               </Button>
             </Stack>
             <Stack pt={6}>
