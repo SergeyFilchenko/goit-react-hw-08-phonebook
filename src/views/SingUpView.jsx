@@ -47,6 +47,7 @@ export default function SignupView() {
     setName('');
     setEmail('');
     setPassword('');
+    alert('invalid email, it may already be in use! Please try again!');
   };
 
   let navigate = useNavigate();
