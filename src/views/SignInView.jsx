@@ -41,8 +41,8 @@ export default function LoginView() {
       email: email,
       password: password,
     });
-    setEmail('');
-    setPassword('');
+    // setEmail('');
+    // setPassword('');
   };
 
   let navigate = useNavigate();
