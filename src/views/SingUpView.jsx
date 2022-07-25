@@ -44,9 +44,9 @@ export default function SignupView() {
   const handleSubmit = async e => {
     e.preventDefault();
     await userSignup({ name, email, password });
-    setName('');
-    setEmail('');
-    setPassword('');
+    // setName('');
+    // setEmail('');
+    // setPassword('');
     alert('invalid email, it may already be in use! Please try again!');
   };
 
