@@ -8,7 +8,10 @@ function ContactList() {
   const filter = useSelector(state => state.filter);
 
   const contacts =
-    data && data.filter(contact => contact.name.toLowerCase().includes(filter));
+    data &&
+    data.filter(contact =>
+      contact.name.toLowerCase().includes(filter.toLowerCase())
+    );
 
   return (
     <>

@@ -7,7 +7,7 @@ function Filter() {
   const filterValue = useSelector(state => state.filter);
 
   const onFilterChange = e => {
-    dispatch(setFilter(e.currentTarget.value.toLowerCase()));
+    dispatch(setFilter(e.currentTarget.value));
   };
 
   return (

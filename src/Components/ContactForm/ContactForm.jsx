@@ -41,8 +41,8 @@ function ContactForm() {
           number: number,
         })
       : toast.error(`${name} is alredy in contacts!!!`);
-    // setName('');
-    // setNumber('');
+    setName('');
+    setNumber('');
   };
 
   return (
